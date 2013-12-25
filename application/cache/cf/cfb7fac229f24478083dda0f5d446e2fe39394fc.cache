@@ -1,2 +1,10 @@
 155520000
-a:0:{}
+a:1:{i:0;a:9:{s:2:"id";s:1:"1";s:8:"img_main";s:0:"";s:5:"title";s:6:"Раз";s:4:"desc";s:485:"<div>
+	<img src="images/slider-bg3.jpg" /></div>
+<div class="caption sft big_white" data-easing="easeOutBack" data-speed="700" data-start="1700" data-x="400" data-y="100">
+	KICKSTART YOUR WEBSITE</div>
+<div class="caption sfb big_orange" data-easing="easeOutBack" data-speed="500" data-start="1900" data-x="400" data-y="142">
+	WITH SLIDER REVOLUTION!</div>
+<div class="caption lfr medium_grey" data-speed="300" data-start="2000" data-x="510" data-y="210">
+	UNLIMITED TRANSITIONS</div>
+";s:7:"img_add";s:0:"";s:4:"link";s:6:"Раз";s:6:"params";s:19:"{"top":90,"left":0}";s:4:"show";s:1:"1";s:5:"order";s:1:"0";}}

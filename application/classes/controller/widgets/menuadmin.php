@@ -18,14 +18,14 @@ class Controller_Widgets_Menuadmin extends Controller_Widgets {
             array('link' => 'widgets', 'name' => 'Виджеты', 'match' => 'widgets'),
             array('link' => 'pages', 'name' => 'Страницы', 'match' => 'pages'),
             array('link' => 'menues', 'name' => 'Меню', 'match' => 'menues'),           
-            //array('link' => 'media', 'name' => 'Медиа', 'match' => 'media'),
+            array('link' => 'media', 'name' => 'Медиа', 'match' => 'media'),
              //array('link' => 'projects', 'name' => 'Проекты', 'match' => 'projects'),
              //array('link' => 'services', 'name' => 'Услуги', 'match' => 'services'),
             //array('link' => 'reviews', 'name' => 'Озывы', 'match' => 'reviews'),
             //array('link' => 'answers', 'name' => 'Вопрос-ответ', 'match' => 'answers'),
             //array('link' => 'comments', 'name' => 'Комментарии', 'match' => 'comments'),
             //array('link' => 'gallery', 'name' => 'Фотогалерея', 'match' => 'gallery'),
-            //array('link' => 'slider', 'name' => 'Слайдер', 'match' => 'slider'),    
+            array('link' => 'slider', 'name' => 'Слайдер', 'match' => 'slider'),
         );
 
         // Вывод в шаблон

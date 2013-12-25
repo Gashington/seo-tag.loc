@@ -37,13 +37,13 @@ if (Kohana::$environment === Kohana::DEVELOPMENT) {
         'default' => array
             (
             'connection' => array(
-                //'hostname' => '192.168.1.100',
-                'hostname' => 'localhost',
+                'hostname' => '192.168.1.109',
+                //'hostname' => 'localhost',
                 'database' => 'seo_tag',
-                //'username' => 'goper',
-                //'password' => 'goomoonkool',
-                'username' => 'root',
-                'password' => '',
+                'username' => 'goper',
+                'password' => 'goomoonkool',
+                //'username' => 'root',
+                //'password' => '',
     )));
 } else {
     $array_db = array

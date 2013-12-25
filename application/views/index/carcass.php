@@ -50,7 +50,7 @@
             </header>
 			<? if (url::is_front()): ?>
                 <!-- Главная страница -->
-                <div class="slider">слайдер</div>
+                <div class="slider">!<?=$w_slider?>!</div>
                 <div class="text-main"><?= $content ?></div>
                 <div class="">html - Виджет услуги</div>
                 <div>Виджет наши клиенты зарабатывают онлайн</div>
