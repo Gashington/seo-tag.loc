@@ -40,25 +40,27 @@
 	                        <? endforeach; ?>
 	                    <? endif; ?>             
 	            <? endforeach ?>
-				
 			</div>
         <? endif ?>
         <div class="container">
             <header>
-
+                <div class="logo">логотип</div>
+                <menu><?= $menu['main']['tree'] ?></menu>
+                <div class="tel"><?=empty($tel_mob_site[0]) ? '' : trim($tel_mob_site[0])?></div>
             </header>
-
-             <?= $menu['main']['tree'] ?>
-
 			<? if (url::is_front()): ?>
-			    <?= $content ?>
+                <!-- Главная страница -->
+                <div class="slider">слайдер</div>
+                <div class="text-main"><?= $content ?></div>
+                <div class="">html - Виджет услуги</div>
+                <div>Виджет наши клиенты зарабатывают онлайн</div>
+                <div>Слайдер портфолио</div>
+			    <!-- Конец Главная страница -->
 			<? else:?>
             	<?= $content ?>
 			<? endif; ?>
 
-            <footer>
-
-            </footer>
+            <footer></footer>
         </div>
         <!-- обязательно для работы ядра -->
         <script src="<?= url::js('libs/core'); ?>jquery-1.7.1.min.js"></script>
