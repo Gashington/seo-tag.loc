@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /
+Disallow: /cgi-bin/
+Disallow: /ckeditor/
+Disallow: /media/
+Disallow: /modules/
+Disallow: /nbproject/
+Disallow: /system/
+Disallow: /application/cache/
+Disallow: /application/config/
+Disallow: /application/i18n/
+Disallow: /application/logs/
+Disallow: /application/messages/
+Sitemap: /sitemap.xml
+Host: 

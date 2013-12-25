@@ -1,0 +1,15 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2013-06-14 02:58:59 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: apple-touch-icon-precomposed.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-06-14 02:58:59 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: apple-touch-icon-precomposed.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-06-14 02:59:00 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: apple-touch-icon-precomposed.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-06-14 02:59:00 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: apple-touch-icon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-06-14 02:59:00 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: apple-touch-icon-precomposed.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-06-14 03:27:52 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: media/css/carcass.css ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-06-14 03:27:52 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: apple-touch-icon-precomposed.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-06-14 03:27:52 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: apple-touch-icon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-06-14 03:28:22 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: media/css/carcass.css ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-06-14 03:28:23 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: apple-touch-icon-precomposed.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-06-14 03:28:23 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: apple-touch-icon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-06-14 03:28:25 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: apple-touch-icon-precomposed.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-06-14 03:28:25 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: apple-touch-icon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]

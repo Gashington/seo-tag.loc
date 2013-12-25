@@ -1,0 +1,44 @@
+/* Кнопка вверх */
+#back-top {
+    position: fixed;
+    bottom: 5px;
+    right:10px
+}
+#back-top a {
+    width: 108px;
+    display: block;
+    text-align: center;
+    font: 11px/100% Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #bbb;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7; 
+    opacity: 0.7; 
+}
+#back-top a:hover {
+    color: #000;
+}
+#back-top span {
+    width: 108px;
+    height: 108px;
+    display: block;
+    margin-bottom: 7px;
+    background: #ddd url(/media/img/up-arrow.png) no-repeat center center;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+#back-top a:hover span {
+    background-color: #777;
+}
+
+span.match{
+	text-shadow: 0 0 5px #990033;
+}

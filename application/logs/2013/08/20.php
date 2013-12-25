@@ -1,0 +1,15 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2013-08-20 10:39:22 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-20 12:26:16 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-20 12:30:16 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-20 12:30:21 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-20 12:32:53 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-20 12:43:22 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-20 12:55:41 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-20 12:57:37 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-20 12:59:22 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-20 13:00:39 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-20 13:16:21 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: media/uploads/mediafiles/schedule-2013-08-16.rar ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-20 13:56:36 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-20 14:03:26 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: media/uploads/mediafiles/schedule-2013-08-16.rar ~ SYSPATH/classes/kohana/request.php [ 1142 ]

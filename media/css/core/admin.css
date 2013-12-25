@@ -1,0 +1,650 @@
+body{
+    background:#CCCCCC;
+    color:#666
+}
+h1, h2, h3, h4{
+    color:#666 
+}
+h1{
+    font-size:22px;
+}
+h2{
+    font-size:20px;
+}
+h3{
+    font-size:18px;
+}
+h4{
+    font-size:16px;
+}
+.page-header{
+	margin:0	
+}
+/* Кнопка вверх */
+#back-top {
+    position: fixed;
+    bottom: 5px;
+    right:10px
+}
+#back-top a {
+    width: 108px;
+    display: block;
+    text-align: center;
+    font: 11px/100% Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #bbb;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7; 
+    opacity: 0.7; 
+}
+#back-top a:hover {
+    color: #000;
+}
+#back-top span {
+    width: 108px;
+    height: 108px;
+    display: block;
+    margin-bottom: 7px;
+    background: #ddd  url(../../img/admin/up-arrow.png) no-repeat center center;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+#back-top a:hover span {
+    background-color: #777;
+}
+#admin table th{
+    background:#EBEBEB;
+}
+
+
+.home{
+    width:30px;
+    height:45px;
+    overflow:hidden;
+	text-align:center;
+}
+.home:hover a,
+.home.active a{
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+.home a{
+   line-height:40px
+}
+
+#admin table tr.hidden > td{
+    opacity:0.5	
+}
+#admin .bottom-area{
+    overflow:hidden;	
+}
+#admin .bottom-area > div{
+    float:left;
+    margin-right:10px;	
+}
+#admin{
+    margin:10px;
+    padding:20px;
+    background:#fff;
+    -moz-border-radius:5px; 
+    -khtml-border-radius:5px;
+    border-radius:5px;
+    box-shadow: 0 0 10px #969696;
+    min-width:1000px;
+}
+#admin header{
+    height:40px;
+    position:relative;
+    margin-bottom:10px;
+    overflow:hidden;
+}
+#admin header .home{
+    width:3%;
+    height:100%;	 
+    float:left;
+    overflow:hidden;
+}
+#admin header .home img{
+    display:block;
+    margin: 1px auto;
+    padding:1px;
+}
+
+#admin header .item0{
+    width:22%;
+    padding:0 10px;
+    height:100%;
+    overflow:hidden;
+    float:left;
+}
+#admin header .item0 span{
+    display:block;
+    float:left;
+    line-height:2.8;
+    font-size:11px;
+    text-indent:15px;
+}
+#admin header .item0 img{
+    display:block;
+    margin:10px 0 0 10px;
+    float:left;
+    width:70px;
+}
+#admin .items.home img{
+    padding:4px;
+}
+#admin .items.home.active img,
+#admin header .home img:hover{
+    padding:3px;
+    border:1px solid #FFF;
+    -moz-border-radius:5px; 
+    -khtml-border-radius:5px;
+    border-radius:5px;  
+}
+
+
+#admin header .item1{
+    width:62%;
+    padding:0 10px;
+    height:100%;
+    float:left;
+}
+#admin header .item1 h1{
+    font-size:16px;
+	line-height:20px
+}
+#admin header .item2{
+    width:9%;
+    height:100%;
+	line-height:38px;
+    float:right;
+    overflow:hidden;	
+	background:#EBEBEB;
+	text-indent:3px;
+	-moz-border-radius:5px; 
+	-khtml-border-radius:5px;
+	border-radius:5px;  
+}
+#admin header .item2 a{
+	padding: 0 5px; 
+}
+#admin header .item2 a:hover{
+    opacity: 0.5
+}
+.admin_content > h2{
+    font-size:12px;
+    text-transform:uppercase;
+    line-height:1.2;
+}
+
+footer{
+    clear:both;
+    overflow:hidden;
+    margin:20px 0 0;
+    background:#f6f6f6;
+    height:30px;
+    line-height:30px;
+    color:#666;
+    font-size:10px;
+    -moz-border-radius:5px; 
+    -khtml-border-radius:5px;
+    border-radius:5px;
+    -moz-box-shadow: 0 0 3px #969696;
+    -webkit-box-shadow: 0 0 3px #969696;
+    /* filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=145, Strength=3); */
+    box-shadow: 0 0 3px #969696;
+
+    text-indent:10px;
+}
+footer .left{
+    height:100%;
+    width:50%;
+    float:left;	
+}
+footer .right{
+    height:100%;
+    width:50%;
+    float:right;	
+}
+
+#main_content{
+    padding:20px;
+}
+#menu_admin{
+    overflow:hidden;
+    margin-top:10px;
+}
+#menu_admin .logout{
+    float:right;
+    display:block;
+    float:left;
+    height:40px;
+    padding:0 20px;
+    line-height:40px;
+    background:#FFAAB0
+}
+#menu_admin .logout a{
+    text-decoration:none
+}
+.menu_items a{
+    display:block;
+    float:left;
+    height:40px;
+    padding:0 8px;
+    line-height:40px;
+    border-right:1px solid #FFF;
+    background:#CCCCCC;
+    text-decoration:none;
+    color:#fff;
+    background: #BB1112; /* цвет по дефолту */
+    background: -moz-linear-gradient(top, #CCCCCC, #666);
+    background: -webkit-linear-gradient(top, #CCCCCC, #666);
+    background: -o-linear-gradient(top, #CCCCCC, #666);
+    background: -ms-linear-gradient(top, #CCCCCC, #666);
+    background: linear-gradient(top, #CCCCCC, #666);
+}
+.menu_items a.select{
+    border-bottom:4px solid #F99D1A;
+    height:36px;
+    text-shadow:0 0 1px #F99D1A;
+}
+.menu_items a:hover{
+    background:#666666;
+    color:#FFFFFF;
+    text-shadow:0 0 1px #F99D1A;
+}
+div.add a{
+    /* padding:10px;
+     background:#FFAAB0;
+     width:100px;
+     box-shadow: 0 0 2px  #333333;
+     text-decoration:none;*/
+}
+div.add a:hover{
+    background: #FF8080
+}
+form label{
+    font-weight:900
+}
+form  [type=text]{
+    width:650px !important
+}
+.error{
+    padding:20px;
+    margin: 10px 0;
+    background:#FECDED;
+    color:red
+}
+
+/* 
+* Документы
+*/
+.admin.docs.index .cats li.active > a{
+	color:red;	
+}
+.admin.docs.index .cats li.parrent{
+	padding-bottom:10px
+}
+
+
+/*
+* Статические страницы 
+*/
+.admin.pages.index{
+    overflow:hidden;
+}
+.admin.pages.index ul{
+    margin:0 0 20px 0;
+    padding:5px 0 5px 15px;
+}
+.admin.pages.index ul li{
+    margin:5px;
+    border:1px solid #CCC;
+
+}
+.admin.pages.index ul li img:hover{
+    /* filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50); */
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+.admin.pages.index ul li{
+    overflow:hidden
+}
+.admin.pages.index ul li div{
+    float:left
+}
+.admin.pages.index ul li div.id{
+    width:100px;
+    border-right:1px solid #CCC;
+    background:#f6f6f6;
+    color:#999999;
+    text-indent:3px;
+}
+.admin.pages.index ul li div.name{
+    width:500px;
+    text-indent:3px;
+}
+.admin.pages.index ul li div.alias{
+    width:200px;
+    text-indent:3px;
+}
+.admin.pages.index ul li div.edit{
+    width:30px;
+    float:right
+}
+.admin.pages.index ul li div.del{
+    width:30px;
+    float:right
+}
+
+/*
+ГЛАВНАЯ
+*/
+#admin .main{
+    margin-bottom:5px;
+}
+#admin .main h1{
+    font-size:17px;
+    line-height:1;	
+}
+#admin .main h2{
+    font-size:15px;
+    line-height:1;
+}
+#admin .main .edit{
+    color:#990000
+}
+/*
+* КАТАЛОГ 
+*/
+#admin .admin.catalog.index .orders .items.item2{
+    padding:0	
+}
+#admin .admin.catalog.index .orders .items.item2>span{
+    font-size:10px;
+}
+#admin .admin.catalog.index .orders .items.item2 > ul{
+    list-style:none;
+    overflow:hidden;
+}
+#admin .admin.catalog.index .orders .items.item2 > ul span.alias{
+    display:none
+}
+
+
+#admin .admin.catalog.index .orders .items.item2 > ul > li.current{
+    background: #FFDDDD;
+}
+#admin .admin.catalog.index .orders .items.item2 > ul > li  a{
+    display:none
+}
+#admin .admin.catalog.index .orders .items.item2 > ul > li {
+    display:inline;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 1px 5px;
+}
+#admin .admin.catalog.index .orders .items.item2 > ul > li  a:first-child{
+    display:inline
+}
+#admin .admin.catalog.index .orders .items.item2 > ul  ul{
+    display:none;
+}
+
+#admin .catalog_info{
+    border:1px solid #999;
+    -moz-border-radius:5px; 
+    -khtml-border-radius:5px;
+    border-radius:5px;  
+    padding:3px;
+    margin-bottom:5px;
+    font-size:11px;
+}
+#admin .catalog_info h3{
+    font-size:12px;
+    line-height:1;
+
+}
+#admin .catalog .top{
+    overflow:hidden;
+}
+#admin .catalog .bottom{
+    overflow:hidden;
+    margin-top:10px;
+}
+#admin .catalog .cats h3,
+#admin .catalog .brands h3,
+#admin .catalog .delivery h3{
+    font-size:13px;
+    line-height:20px;
+}
+#admin .catalog .cats {
+    float:left;
+    width:49%;
+    padding:5px;
+    background:#EBEBEB;
+    -moz-border-radius:5px; 
+    -khtml-border-radius:5px;
+    border-radius:5px;  
+}
+#admin .catalog .cats li.current > a{
+    background: #FFDDDD;	
+}
+#admin .catalog .cats li span,
+#admin .catalog .brands li span{
+    color:#999;
+    font-size:10px;
+}
+#admin .catalog .delivery{
+    width:49%;
+    padding:5px;
+    background:#EBEBEB;
+    -moz-border-radius:5px; 
+    -khtml-border-radius:5px;
+    border-radius:5px;
+}
+#admin .catalog .brands{
+    float:right;
+    width:48%;
+    padding:5px;
+    background:#EBEBEB;
+    -moz-border-radius:5px; 
+    -khtml-border-radius:5px;
+    border-radius:5px;
+}
+#admin .catalog .add{
+    margin-bottom:20px
+}
+#admin .catalog .tovars .orders{
+    margin-bottom: 10px;
+    width: 90%;
+    height: 50px;
+    overflow: hidden
+}
+#admin .catalog .tovars .orders .items{
+    float:left;
+    margin-right:10px;	
+}
+
+
+#admin .product.edit .images ul{
+    overflow: hidden;
+    list-style: none;
+}
+#admin .product.edit .images ul li{
+    background:#F2F2F2;
+    padding: 5px;
+    height: 130px;
+    float:left;
+    margin-right: 10px;
+    list-style: none;
+    cursor:move;
+    position:relative;
+}
+#admin .product.edit .images ul li input{
+    position:absolute;
+    bottom:2px;
+    right:2px
+}
+#admin .product.edit .images ul li img{
+    width: 60%;
+    max-height: 100px;
+    display: block;
+    margin: auto;
+}
+#admin .admin.product.edit .images .del_imgs{
+    display:none	
+}
+
+div.widgets ul{
+    margin-bottom:40px;
+    list-style-type:circle;
+}
+div.widgets ul li{
+    padding: 5px 0;
+    margin-bottom:2px;
+}
+/* Галерея */
+.admin.gallery.index .categories ul{
+    overflow: hidden
+}
+.admin.gallery.index .categories ul li{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    border:1px dotted gray;
+    margin-bottom: 5px;
+    cursor: move;
+    padding: 5px;
+}
+.admin.gallery.index .categories ul li .img{
+    float:left;
+    height: 40px;
+    width: 40px; 
+}
+.admin.gallery.index .categories ul li .img{
+    float:left;
+    height: 40px;
+    width: 10%;
+    overflow: hidden
+}
+.admin.gallery.index .categories ul li .img img{
+    height: 40px;
+    width: 40px; 
+    float: left;
+}
+.admin.gallery.index .categories ul li .desc{
+    float:right;
+    height: 40px;
+    width: 87%; 
+}
+
+.admin.gallery.edit .images,
+.admin.gallery.edit .images ul{
+    overflow:hidden
+}
+.admin.gallery.edit .images ul li{
+    width:50px;
+    height:60px;
+    float:left;
+    overflow:hidden;
+    padding:3px 5px 20px;
+    border:1px dotted gray;
+    margin-right:5px;
+
+
+}
+.admin.gallery.edit .images ul li img{
+    height:50px;
+    width:50px;
+    cursor:move
+}
+
+
+
+/*
+* Область выбора ссылок на материалы в меню
+*/
+.select_area_links{
+    background:#f6f6f6;
+    padding:5px;
+    -moz-box-shadow: 0px 0px 3px #969696;
+    -webkit-box-shadow: 0px 0px 3px #969696;
+    box-shadow: 0px 0px 3px #969696;
+
+}
+.select_area_links a{
+    background:#FFDDDD;
+    -moz-border-radius:5px; 
+    -khtml-border-radius:5px;
+    border-radius:5px;
+    padding:1px 5px;
+    font-size:10px
+}
+/* Раздел меню */
+.admin.menues.index{
+    overflow:hidden;
+}
+.admin.menues.index section{
+    overflow:hidden;
+    background:#f6f6f6;
+    padding:1px 10px 20px;
+    margin:20px ;
+    -moz-box-shadow: 0px 0px 3px #969696;
+    -webkit-box-shadow: 0px 0px 3px #969696;
+    /* filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=145, Strength=3); */
+    box-shadow: 0px 0px 3px #969696;
+    -moz-border-radius:5px; 
+    -khtml-border-radius:5px;
+    border-radius:5px;  
+}
+
+/* docsico */
+.docsico{
+    display:block;
+    overflow:hidden;
+    width:49px;
+    height:62px;
+    outline:1px solid red;
+}
+.docsico.pdf{
+    background: url(/media/img/docsico.png);
+}
+.docsico.zip{
+    background: url(/media/img/docsico.png) -50px 0;
+}
+.docsico.txt{
+    background: url(/media/img/docsico.png) 50px 0 ;
+}
+.docsico.rar{
+    background: url(/media/img/docsico.png) 100px 0 ;
+}
+.docsico.docx{
+    background: url(/media/img/docsico.png) 0 63px ;
+}
+.docsico.gif{
+    background: url(/media/img/docsico.png) 0 253px ;
+}
+.docsico.jpg{
+    background: url(/media/img/docsico.png) 250px 253px ;
+}
+.docsico.exel{
+    background: url(/media/img/docsico.png) 100px 253px ;
+}
+.admin.robots.edit textarea{
+    width: 600px;
+}
+
+.invisible-block {
+    display: none;
+}

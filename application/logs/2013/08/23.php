@@ -1,0 +1,17 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2013-08-23 02:03:31 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL adress_filials/1545 was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2013-08-23 03:01:57 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-23 03:14:08 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-23 03:21:05 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-23 03:21:13 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-23 04:12:47 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-23 04:16:32 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-23 04:59:40 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-23 05:06:36 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-23 09:49:17 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-23 10:10:27 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-23 13:16:27 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-23 13:16:30 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-23 15:20:49 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
+2013-08-23 15:21:55 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.png ~ SYSPATH/classes/kohana/request.php [ 1142 ]
